@@ -1,5 +1,9 @@
 ### Hi there 👋
+I'm Almirante Ming, i course Systems analysis and development
 
+i'm currently learn python, SQL and Ruby
+looking to colaborate on Rails projects or similar
+i love music and RPG...
 <!--
 **Almirante-Ming/Almirante-Ming** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
