@@ -3,7 +3,7 @@ I'm Almirante Ming, I'm studying development and systems analysis.
 
 I am working on personal projects involving the concepts learned during the course, as well as developing solutions to personal problems, and in the future putting together for display.
 
-I currently work doing computer maintenance and also migrating clients to the Workin ERP and PDV platform.
+I currently work doing computer maintenance and also migrating clients to ERP and PDV platform.
 
 I'm still studying, but I'm applying projects involving SQL, Linux, Docker, Ruby, Python and JS.
 
