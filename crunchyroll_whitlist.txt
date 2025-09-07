@@ -1,0 +1,4 @@
+crunchyroll.com
+vrv.co
+static.crunchyroll.com
+prod-api.crunchyroll.com
