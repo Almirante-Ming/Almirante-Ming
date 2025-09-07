@@ -1,23 +1,22 @@
-### Hi there 👋
-I'm Almirante Ming, I'm studying development and systems analysis.
+Nothing very interesting here, I'm a technician in mechatronics and IT, I'm studying systems analysis, I enjoy developing applications for mobile and embedded devices, I work providing support for ERP systems and preparing equipment for receiving, whether it be computers, laptops, printers, POS or other related devices.
 
-I am working on personal projects involving the concepts learned during the course, as well as developing solutions to personal problems, and in the future putting together for display.
 
-I currently work doing computer maintenance and also migrating clients to ERP and PDV platform.
 
-I'm still studying, but I'm applying projects involving SQL, Linux, Docker, Ruby, Python and JS.
+## tools that I usually utilize
 
-<!--
-**Almirante-Ming/Almirante-Ming** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff)](#)
 
-Here are some ideas to get you started:
+[![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)](#)
+[![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white)](#)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#)
+[![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=fff)](#)
+
+[![Gimp](https://img.shields.io/badge/Gimp-5C5543?logo=gimp&logoColor=white)](#)
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Flask](https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff)](#)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white)](#)
+
+[![Ruby](https://img.shields.io/badge/Ruby-%23CC342D.svg?&logo=ruby&logoColor=white)](#)
+[![Rails](https://img.shields.io/badge/Rails-%23CC0000.svg?logo=ruby-on-rails&logoColor=white)](#)
