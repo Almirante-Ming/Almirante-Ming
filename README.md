@@ -1,4 +1,4 @@
-Nothing very interesting here, I am a technician in mechatronics and IT, currently studying systems analysis. I enjoy developing applications for mobile and embedded devices. I work providing support for ERP systems and preparing equipment for receipt, whether it be computers, laptops, printers, POS systems or other related devices.
+Technician in mechatronics and IT, Systems developer analyst. I enjoy developing applications for web, mobile or embedded devices. working providing support for ERP systems and preparing equipment for receipt, whether it be computers, laptops, printers, POS systems or other related devices.
 
 ## tools that I usually utilize
 
