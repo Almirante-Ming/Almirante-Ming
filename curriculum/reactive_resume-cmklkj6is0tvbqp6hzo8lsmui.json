@@ -1,0 +1,406 @@
+{
+  "basics": {
+    "name": "Victor Guilherme de Oliveira Barreto",
+    "headline": "IT Technician / Systems Developer Analyst",
+    "email": "v.guilherme.barreto@gmail.com",
+    "phone": "+55 67 98133 5413",
+    "location": "Três Lagoas, MS - Brazil",
+    "url": {
+      "label": "",
+      "href": ""
+    },
+    "customFields": [
+      {
+        "id": "l7l4wbqo4xyif56pm6e184wd",
+        "icon": "identification-badge",
+        "name": "Passaport",
+        "value": "GK412352"
+      },
+      {
+        "id": "e50oq0xey1kcm4hdhtfvvyzf",
+        "icon": "identification-card",
+        "name": "Driver Licence",
+        "value": "A/B"
+      }
+    ],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Software Developer in training, with a focus on Backend and Mobile technologies. Seeking to apply academic foundation and experience in solving technical problems to contribute to software development projects.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "sq25s20bcq3rb4yxn6j4v0ku",
+          "visible": true,
+          "institution": "Instituto Federal de Ciência e Tecnologia do Mato Grosso do Sul (IFMS)",
+          "studyType": "Technology in Systems Analysis and Development",
+          "area": "Information Technology (IT)",
+          "score": "",
+          "date": "August/2023 - December/2025",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "cxtq50x4a2d2im1njwy8jk5e",
+          "visible": true,
+          "institution": "Instituto Federal de Ciência e Tecnologia do Mato Grosso do Sul (IFMS)",
+          "studyType": "Integrated Technician in Electrotechnics",
+          "area": "Electrical Engineering / Technological Sciences",
+          "score": "",
+          "date": "February/2017 - July/2021",
+          "summary": "<p></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "k45zf5et19eaq1xdrki2qir2",
+          "visible": true,
+          "company": "Três Lagoas Comércio de Informática LTDA",
+          "position": "IT Technician",
+          "location": "Tres Lagoas, MS - Brazil",
+          "date": "March/2023 - now",
+          "summary": "<p>Responsible for the diagnosis and repair of electronic devices, including laptops, desktops, and printers. Provide technical support to system clients, resolving operational issues and malfunctions.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "lk5mt71t8i1vkeokaa5q9skx",
+          "visible": true,
+          "company": "ORBENK Administração e Serviços LTDA.",
+          "position": "Administrative Assistant",
+          "location": "Tres Lagoas, MS - Brazil",
+          "date": "February/2021- September/2022",
+          "summary": "<p>Carrying out administrative activities at the Federal Highway Police unit, including document processing, public service, and IT support for internal systems and equipment.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "bl4bog2adysjg8qkdxg6f9sq",
+          "visible": true,
+          "company": "GUATOS Prestadora de Serviços LTDA",
+          "position": "Recepcionist",
+          "location": "Tres Lagoas, MS - Brazil",
+          "date": "January/2021 - February/2021",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "qjm3cpsthtu2a4oyg5kdo77o",
+          "visible": true,
+          "company": "Ministério Público Estadual",
+          "position": "Administrative Technical Intern",
+          "location": "Tres Lagoas, MS - Brazil",
+          "date": "March/2019 - December/2020",
+          "summary": "<p>Experience in data entry, document preparation, public service, and IT infrastructure technical support. Assisting in maintaining the operational efficiency of the administrative department.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 3,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "z689vwj0ff45c4yjlq42kuxk",
+          "visible": true,
+          "name": "Brazilian Portuguese",
+          "description": "Native",
+          "level": 0
+        },
+        {
+          "id": "jmvmdsqkb1c56job2931b0de",
+          "visible": true,
+          "name": "English",
+          "description": "B1 certification per EFSET",
+          "level": 3
+        },
+        {
+          "id": "cmw3aqqunmqcst4e8gwwifbs",
+          "visible": true,
+          "name": "Japanese",
+          "description": "Beginner (self studied)",
+          "level": 1
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "xnb8vpk7f6vjddiacg9ahjkq",
+          "visible": true,
+          "network": "Linkedin",
+          "username": "Victor Guilherme",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/victor-guilherme-93b571285/"
+          }
+        },
+        {
+          "id": "wrtkvj62td4lf7q1npytwyt6",
+          "visible": true,
+          "network": "GitHub",
+          "username": "V. Guilherme",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/almirante-ming"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projetos Desenvolvidos",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "krlo30ujd8xulpjk1b47x3bl",
+          "visible": true,
+          "name": "Rosé",
+          "description": "Class scheduling manager",
+          "date": "July/2025 - now",
+          "summary": "<p>The application was developed during the academic period, with the objective of creating a scheduling application for sessions/classes, in which the administrator and instructors can schedule appointments and the student receives feedback on the bookings, being able to cancel or reschedule by providing a justification. It is written in TypeScript using React Native with Expo, with development assisted by AI.</p>",
+          "keywords": [
+            "TypeScript",
+            "React Native",
+            "Expo"
+          ],
+          "url": {
+            "label": "Almirante-Ming/Rose",
+            "href": "https://github.com/Almirante-Ming/Rose"
+          }
+        },
+        {
+          "id": "i80us1alxsqbsij1mv0lhkxa",
+          "visible": true,
+          "name": "Tinto",
+          "description": "FastAPI backend for Rosé app",
+          "date": "January/2025 - December/2025",
+          "summary": "<p>As part of the learning process, the backend was also developed to manage registrations, appointments, and process client requests. It is currently hosted on Vercel for testing and validation purposes with clients; however, it is ready to operate with Docker or be used as a pip package on the client's server machine.</p>",
+          "keywords": [
+            "Python",
+            "FastAPI",
+            "SQLAlchemy",
+            "PostgreSQL"
+          ],
+          "url": {
+            "label": "Almirante-Ming/tinto",
+            "href": "https://github.com/Almirante-Ming/tinto"
+          }
+        },
+        {
+          "id": "hs9ya97i3tw75ysxmnqxz03v",
+          "visible": true,
+          "name": "Prosecco",
+          "description": "HTTP Media Display Panel",
+          "date": "May/2025 - July/2025",
+          "summary": "<p>Designed to manage content displayed across multiple screens with routing by local IP and screen groups, the operator can upload and assign supported media files, and determine which group of screens will display them. The screens are organized into groups that, by default, use self-explanatory names during creation to indicate their location. As a bonus, it also displays a real-time clock and a brief weather forecast updated every 10 minutes. The project’s key differentiator was the limits established, which required significant optimizations ranging from storage to resource consumption, particularly network usage. The entire project was designed to run on a Raspberry Pi 3B connected to a television with the browser running in full-screen mode. IP redirection would automatically create a route for content to be displayed, without the need for client-side updates.</p>",
+          "keywords": [
+            "Python",
+            "Flask",
+            "SQLite",
+            "Raspberry"
+          ],
+          "url": {
+            "label": "Almirante-Ming/prosecco",
+            "href": "https://github.com/Almirante-Ming/prosecco"
+          }
+        },
+        {
+          "id": "wn7478g045mpifjtg3ux1cj6",
+          "visible": true,
+          "name": "Lychee",
+          "description": "Database processor for data extracted in CSV",
+          "date": "August/2025 - now",
+          "summary": "<p>This is a toolkit with several modules to automate steps for preparing CSV tables for migration from a legacy system. For now, it includes simple features such as date formatting, invalid character replacement, decoding and encoding, verification of codes validated by public authorities, and a linter. It operates in CLI mode with full compatibility with Windows, Linux, and Mac. A graphical interface is still under development, with the aim of creating a native system application that allows users to easily select the corrections and checks to be applied and then track the entire operation through the log. This is intended to automate a process that was previously done manually and with a high incidence of human error. To facilitate development, the graphical version will likely use Java to improve compatibility and reduce environment-related issues, though this is still under analysis and case study.</p>",
+          "keywords": [
+            "python",
+            "shell",
+            "CSV",
+            "Regex"
+          ],
+          "url": {
+            "label": "Almirante-Ming/lychee",
+            "href": "https://github.com/Almirante-Ming/lychee"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": []
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "onyx",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "education",
+          "experience"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "references",
+          "volunteer",
+          "publications"
+        ]
+      ],
+      [
+        [
+          "languages",
+          "projects"
+        ],
+        []
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#dc2626"
+    },
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular",
+          "italic",
+          "600"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}
