@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------------
+# Plex - stack separada, so precisa enxergar a biblioteca em ${CONTENT_DIR}.
+#
+#   docker compose -f docker-compose.plex.yml up -d
+#
+# Obs: a porta 32400 nao e remapeada de proposito - o Plex a usa para
+# descoberta/remote access. Se preferir bridge em 7400, ajuste PLEX_PORT e o
+# PLEX_ADVERTISE_IP juntos.
+# ---------------------------------------------------------------------------
+name: plex
+
+services:
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    hostname: plex
+    restart: unless-stopped
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      UMASK: ${UMASK}
+      TZ: ${TZ}
+      VERSION: docker
+      PLEX_CLAIM: ${PLEX_CLAIM}
+      ADVERTISE_IP: ${PLEX_ADVERTISE_IP}
+    volumes:
+      - ${CONFIG_ROOT}/plex:/config
+      # Biblioteca: apontar as libraries do Plex para /content/tv e /content/movies.
+      # :ro protege a midia, mas impede apagar arquivos pela UI do Plex -
+      # remova o :ro se quiser essa funcao.
+      - ${CONTENT_DIR}:/content:ro
+      # fora de /config de proposito (bind mount aninhado confunde o backup)
+      - ${CONFIG_ROOT}/plex-transcode:/transcode
+    ports:
+      - ${PLEX_PORT}:32400
+    networks:
+      - medianet
+    # Transcoding por hardware (Intel QSV / VAAPI): descomente se houver /dev/dri
+    # devices:
+    #   - /dev/dri:/dev/dri
+
+    # Alternativa recomendada em LAN fisica (descoberta automatica pelos apps
+    # Plex): trocar 'ports' + 'networks' acima por:
+    # network_mode: host
+
+networks:
+  medianet:
+    name: ${MEDIA_NETWORK}
+    external: true

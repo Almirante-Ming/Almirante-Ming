@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# Transmission - stack separada, mas na mesma rede ${MEDIA_NETWORK} para que
+# Sonarr/Radarr consigam falar com ele por hostname (http://transmission:9091).
+#
+#   docker compose -f docker-compose.transmission.yml up -d
+# ---------------------------------------------------------------------------
+name: transmission
+
+services:
+  transmission:
+    image: lscr.io/linuxserver/transmission:latest
+    container_name: transmission
+    hostname: transmission
+    restart: unless-stopped
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      UMASK: ${UMASK}
+      TZ: ${TZ}
+      # Credenciais do RPC - as mesmas configuradas em Sonarr/Radarr
+      USER: ${TRANSMISSION_USER}
+      PASS: ${TRANSMISSION_PASS}
+      # Libera o RPC para a rede docker + LAN privada
+      WHITELIST: 127.0.0.1,10.*.*.*,172.*.*.*,192.168.*.*
+      HOST_WHITELIST: "*"
+      PEERPORT: ${TRANSMISSION_PEER_PORT}
+      # NAO defina TRANSMISSION_WEB_HOME: a imagem nao empacota mais as UIs
+      # alternativas (flood/kettu/combustion) - o path serve uma pagina
+      # "Upgrade Required!" no lugar da UI. Use a UI nativa do Transmission.
+    volumes:
+      - ${CONFIG_ROOT}/transmission:/config
+      # Mesma raiz da stack *arr -> mesmo mountpoint -> hardlink funciona.
+      # O settings.json (escrito pelo bootstrap.sh) baixa em
+      # /data/downloads/complete, que o Sonarr/Radarr enxergam no mesmo path.
+      - ${MEDIA_ROOT}:/data
+      - ${DOWNLOADS_DIR}:/downloads
+    ports:
+      - ${TRANSMISSION_PORT}:9091
+      - ${TRANSMISSION_PEER_PORT}:${TRANSMISSION_PEER_PORT}/tcp
+      - ${TRANSMISSION_PEER_PORT}:${TRANSMISSION_PEER_PORT}/udp
+    networks:
+      - medianet
+
+networks:
+  medianet:
+    name: ${MEDIA_NETWORK}
+    external: true
