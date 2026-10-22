@@ -1,5 +1,10 @@
 [user]
-	name = V.Guilherme
+	name = V. Guilherme
 	email = v.guilherme.barreto@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
 [core]
 	editor = lvim
+	autocrlf = true
